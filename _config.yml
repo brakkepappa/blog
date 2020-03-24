@@ -41,5 +41,10 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
 
-paginate: 3
+paginate: 20
 paginate_path: "/page/:num/"
+
+show_excerpts: true
+excerpt_length: 20
+
+hide_search: true
