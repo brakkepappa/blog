@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <div class="timebar"> Tid i karantene:   
+    <div class="timebar"> 
+      <a>Tid i karantene:   </a>
       <!-- Display the countdown timer in an element -->
-      <p id="counter"></p>
+      <a id="counter"></a>
       <script src="{{ '/js/counter.js' | absolute_url }}?{{ site.time | date: '%s%N' }}" ></script>
       <script src="{{ '/js/sticky.js' | absolute_url }}?{{ site.time | date: '%s%N' }}" ></script>
     </div>
