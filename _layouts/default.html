@@ -19,13 +19,14 @@
     {%- endif -%}
 
   </head>
-  <body>
     <div class="timebar"> 
       <!-- Display the countdown timer in an element -->
       <a id="counter"></a>
       <script src="{{ '/js/counter.js' | absolute_url }}?{{ site.time | date: '%s%N' }}" ></script>
       <script src="{{ '/js/sticky.js' | absolute_url }}?{{ site.time | date: '%s%N' }}" ></script>
     </div>
+  <body>
+
       
 
     {{ content }}
