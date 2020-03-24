@@ -1,6 +1,7 @@
 div.timebar{
   overflow:hidden;
-  
+    position: fixed;
+    top: 0;
 }
 
 /* Blocks */
@@ -10,13 +11,8 @@ div.timebar a{
   font-weight: 600;
   display: block;
   text-align: center;
-  padding: 14px;
   color: RED;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+
