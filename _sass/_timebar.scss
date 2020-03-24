@@ -1,9 +1,11 @@
-#timebar{
+div.timebar{
   overflow:hidden;
+  color: WHITE;
+  
 }
 
 /* Blocks */
-#timebar a{
+div.timebar a{
   float: left;
   display: block;
   text-align: center;
