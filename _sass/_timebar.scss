@@ -3,7 +3,9 @@ div.timebar{
   position: fixed;
   top: 0;
   background-color: black;
-  float: center;
+  z-index: 1;
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* Blocks */
