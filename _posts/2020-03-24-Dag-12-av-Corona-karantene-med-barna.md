@@ -1,5 +1,5 @@
 ---
-title: Dag 12
+title: Dag 12 av Corona- karantene med småbarn (del 2)
 author: BrakkePappa
 category: post
 layout: post
