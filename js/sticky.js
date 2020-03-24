@@ -2,7 +2,7 @@
 window.onscroll = function() {myFunction()};
 
 // Get the timebar
-var timebar = document.getElementByClass("timebar");
+var timebar = document.getElementById("timebar");
 
 // Get the offset position of the timebar
 var sticky = timebar.offsetTop;
