@@ -1,12 +1,13 @@
 div.timebar{
   overflow:hidden;
-  color: WHITE;
   
 }
 
 /* Blocks */
 div.timebar a{
-  float: left;
+  float: center;
+  font-size: 2em;
+  font-weight: 600;
   display: block;
   text-align: center;
   padding: 14px;
